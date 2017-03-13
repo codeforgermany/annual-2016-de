@@ -37,7 +37,7 @@ title: Code for Germany 2016 Annual Report
 <div class="pagebg {{ p.pagetype }} {{ p.image }}" style="background-color:#{{ p.bgcolor }};" >
 </div>
 {% endif %}
-{% endfor %}  
+{% endfor %}
 
 
 <div id="page">
@@ -46,7 +46,7 @@ title: Code for Germany 2016 Annual Report
     {% for p in site.posts %}
 
     <div class="sidebartitle" >
-      <h1>2015</h1>
+      <h1>2016</h1>
       {% if p.title != "stats" %}
       <h2>{{ p.title }} <br/>
       {% if p.icon %}
@@ -58,16 +58,16 @@ title: Code for Germany 2016 Annual Report
     </div>
 
     {% endfor %}
-    
+
   </div>
-  
+
   {% for p in site.posts %}
 
   {% if p.url != "/index.html" %}
   <a name="{{ p.section }}"></a>
   <div class="page {{ p.pagetype }}" style="background-color:#{{ p.bgslide }};padding-top:{{ p.extrapadding }}" data-section="nav{{ p.section }}">
     {{ p.content | markdownify }}
-    <div class="clear"></div>  
+    <div class="clear"></div>
   </div>
   {% endif %}
   {% endfor %}
@@ -79,6 +79,3 @@ title: Code for Germany 2016 Annual Report
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
   <div></div>
 </div>
-
-
-

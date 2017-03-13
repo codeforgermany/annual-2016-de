@@ -9,7 +9,6 @@ var cities = [{
         "year": "2014",
         "type": "fellowship",
         "story": "summit",
-        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -27,7 +26,6 @@ var cities = [{
         "year": "2014",
         "type": "fellowship",
         "story": "summit",
-        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -45,7 +43,6 @@ var cities = [{
         "year": "2014",
         "type": "fellowship",
         "story": "summit",
-        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -63,7 +60,6 @@ var cities = [{
         "year": "2014",
         "type": "fellowship",
         "story": "summit",
-        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -81,7 +77,6 @@ var cities = [{
         "year": "2014",
         "type": "fellowship",
         "story": "summit",
-        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -99,7 +94,6 @@ var cities = [{
         "year": "2014",
         "type": "fellowship",
         "story": "summit",
-        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -117,7 +111,6 @@ var cities = [{
         "year": "2014",
         "type": "fellowship",
         "story": "summit",
-        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -135,7 +128,6 @@ var cities = [{
         "year": "2014",
         "type": "fellowship",
         "story": "summit",
-        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -153,7 +145,6 @@ var cities = [{
         "year": "2014",
         "type": "fellowship",
         "story": "summit",
-        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -171,7 +162,6 @@ var cities = [{
         "year": "2014",
         "type": "fellowship",
         "story": "summit",
-        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -189,7 +179,6 @@ var cities = [{
         "year": "2014",
         "type": "fellowship",
         "story": "summit",
-        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -207,7 +196,6 @@ var cities = [{
         "year": "2014",
         "type": "fellowship",
         "story": "summit",
-        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -225,7 +213,6 @@ var cities = [{
         "year": "2014",
         "type": "fellowship",
         "story": "summit",
-        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -243,7 +230,6 @@ var cities = [{
         "year": "2015",
         "type": "fellowship",
         "story": "summit",
-        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -261,7 +247,6 @@ var cities = [{
         "year": "2015",
         "type": "fellowship",
         "story": "summit",
-        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -279,7 +264,6 @@ var cities = [{
         "year": "2015",
         "type": "fellowship",
         "story": "summit",
-        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -297,7 +281,6 @@ var cities = [{
         "year": "2015",
         "type": "fellowship",
         "story": "summit",
-        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -315,7 +298,6 @@ var cities = [{
         "year": "2015",
         "type": "fellowship",
         "story": "summit",
-        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -333,7 +315,6 @@ var cities = [{
         "year": "2015",
         "type": "fellowship",
         "story": "summit",
-        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -351,7 +332,6 @@ var cities = [{
         "year": "2015",
         "type": "fellowship",
         "story": "summit",
-        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -367,7 +347,6 @@ var cities = [{
       "properties": {
         "city": "kassel",
         "year": "2016",
-        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -399,7 +378,6 @@ var cities = [{
         "city": "duesseldorf",
         "year": "2016",
         "marker-color": "#e87d2b"
-
       },
       "geometry": {
         "type": "Point",
@@ -415,7 +393,6 @@ var cities = [{
         "city": "ruhr",
         "year": "2016",
         "marker-color": "#e87d2b"
-
       },
       "geometry": {
         "type": "Point",
@@ -439,7 +416,67 @@ var cities = [{
           51.45892724311225
         ]
       }
-    }
+    },
+      {
+        "type": "Feature",
+        "properties": {
+          "city": "hannover",
+          "year": "2016",
+          "marker-color": "#e87d2b"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            9.716667,
+            52.366667
+          ]
+        }
+      },
+        {
+          "type": "Feature",
+          "properties": {
+            "city": "schwerin",
+            "year": "2017",
+            "marker-color": "#e87d2b"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.416667,
+              53.633333
+            ]
+          }
+        },
+          {
+            "type": "Feature",
+            "properties": {
+              "city": "erfurt",
+              "year": "2017",
+              "marker-color": "#e87d2b"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                11.033333,
+                50.983333
+              ]
+            }
+          },
+            {
+              "type": "Feature",
+              "properties": {
+                "city": "heidelberg",
+                "year": "2017",
+                "marker-color": "#e87d2b"
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  8.716667,
+                  49.416667
+                ]
+              }
+            }
   ]
 }]
 
@@ -579,7 +616,7 @@ $(function(){
     }
   };
 
-  
+
   scrollEvent.on("middle", $(".page"), function(el,i){
     $($("div.pagebg")[i]).fadeIn({duration:500});
     if(($(el).attr("class").indexOf("quote") >= 0) || ($(el).attr("class").indexOf("nosidebar") >= 0))
@@ -672,6 +709,7 @@ $(function(){
   map.scrollWheelZoom.disable();
   map.keyboard.disable();
 
+  var cities2017 = filterCitiesByYear("2017");
   var cities2016 = filterCitiesByYear("2016");
   var cities2015 = filterCitiesByYear("2015");
   var cities2014 = filterCitiesByYear("2014");
@@ -696,26 +734,36 @@ $(function(){
   var featureLayer2016 = L.mapbox.featureLayer(cities2016)
       // hide all markers
       .setFilter(function(){ return true; });
+  var featureLayer2017 = L.mapbox.featureLayer(cities2017)
+          // hide all markers
+          .setFilter(function(){ return true; });
 
   $('#2014 .btn').click(function() {
+    map.removeLayer(featureLayer2017);
     map.removeLayer(featureLayer2016);
     map.removeLayer(featureLayer2015);
     //map.addLayer(featureLayer2014);
   })
 
   $('#2015 .btn').click(function() {
+    map.removeLayer(featureLayer2017);
     map.removeLayer(featureLayer2016);
     map.addLayer(featureLayer2015);
   })
 
   $('#2016 .btn').click(function() {
-    //map.removeLayer(featureLayer2014);
+    map.removeLayer(featureLayer2017);
     map.addLayer(featureLayer2016);
 
   })
 
+  $('#2017 .btn').click(function() {
+    //map.removeLayer(featureLayer2014);
+    map.addLayer(featureLayer2017);
 
-  var years = ["2014", "2015", "2016"]
+  })
+
+  var years = ["2014", "2015", "2016", "2017"]
 
   $.each(years, function(index, value){
     $('#'+value).on('show.bs.dropdown', function() {
@@ -735,6 +783,9 @@ $(function(){
       case "2016":
         $("#markerCircle", $svg).attr('style', "fill:#6D6E71");
       break;
+      case "2017":
+        $("#markerCircle", $svg).attr('style', "fill:#6D6E71");
+      break;
       default:
         $("#markerCircle", $svg).attr('style', "fill:#e87d2b");
       break;
@@ -749,7 +800,7 @@ $(function(){
   var mapcurrentyear = "2014";
   var timer;
   scrollEvent.on("middle", $(".mapscroll"), function(el,i){
-    yearMarkers(2016);
+    yearMarkers(2017);
   });
 
 //   var 2014 = L.geoJson(cities, {
