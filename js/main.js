@@ -328,6 +328,23 @@ var cities = [{
     {
       "type": "Feature",
       "properties": {
+        "city": "potsdam",
+        "year": "2016",
+        "type": "fellowship",
+        "story": "summit",
+        "marker-color": "#e87d2b"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.066667,
+          52.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "city": "ruhr",
         "year": "2015",
         "type": "fellowship",
@@ -754,12 +771,15 @@ $(function(){
   $('#2016 .btn').click(function() {
     map.removeLayer(featureLayer2017);
     map.addLayer(featureLayer2016);
+    map.addLayer(featureLayer2015);
 
   })
 
   $('#2017 .btn').click(function() {
     //map.removeLayer(featureLayer2014);
     map.addLayer(featureLayer2017);
+    map.addLayer(featureLayer2016);
+    map.addLayer(featureLayer2015);
 
   })
 
